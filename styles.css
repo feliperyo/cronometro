@@ -152,3 +152,32 @@ button {
     }
 
 }
+
+@media screen and (max-width: 400px) {
+
+    button {
+        border-radius: 50px;
+        padding: 10px 15px;
+        font-size: 25px;
+        margin: 5px;
+    }
+    #minute {
+        margin-top: 0px;
+        font-size: 200px;
+        margin-left: 20px;
+    }
+    
+    #second {
+        margin-top: -60px;
+        font-size: 150px;
+        margin-left: -35px;
+        width: 100px;
+    }
+    
+    #millisecond {
+        font-size: 100px;
+        margin-top: -40px;
+        margin-left: 55px;
+    }
+
+}
