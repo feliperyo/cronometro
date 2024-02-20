@@ -26,7 +26,6 @@ header {
 
 #minute {
     font-size: 350px;
-    width:100x;
 }
 
 #second {
@@ -80,4 +79,75 @@ button {
 
 .stop-button:active {
     opacity: 0.6;
+}
+
+@media screen and (max-width: 1030px) {
+
+    p {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    
+    }
+
+    button {
+        border-radius: 50px;
+        padding: 15px 50px;
+        font-size: 60px;
+        margin: 8px;
+    }
+    #minute {
+        margin-top: -10px;
+    }
+    
+    #second {
+        margin-top: -80px;
+    }
+    
+    #millisecond {
+        margin-top: -60px;
+        margin-left: -170px;
+        margin-bottom: 60px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    header {
+        
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    button {
+        border-radius: 50px;
+        padding: 10px 20px;
+        font-size: 40px;
+        margin: 10px;
+    }
+    #minute {
+        font-size: 250px;
+    }
+    
+    #second {
+        font-size: 200px;
+        margin-left: 100px;
+    }
+    
+    #millisecond {
+        font-size: 150px;
+        margin-top: -50px;
+        margin-left: -25px;
+        margin-bottom: 30px;
+    }
+
 }
