@@ -123,10 +123,6 @@ button {
 
 @media screen and (max-width: 500px) {
 
-    header {
-        
-    }
-
     main{
         flex-direction: column;
     }
