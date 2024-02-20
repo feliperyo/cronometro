@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(10, 4, 26);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-left: -10%;
+}
+
+/* #hour { 
+    font-size: 400px;
+    text-align: center;
+}*/
+
+#minute {
+    font-size: 350px;
+    width:100x;
+}
+
+#second {
+    font-size: 300px;
+    width: 300px;
+}
+
+#millisecond {
+    font-size: 250px;
+    width: 200px;
+}
+
+p {
+    font-size: 100px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(28, 5, 75);
+    border: 1px solid aliceblue;
+    border-radius: 60px;
+    padding: 20px 60px;
+    font-size: 75px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.start-button:hover {
+    background-color: rgb(9, 131, 31);
+}
+
+.start-button:active {
+    opacity: 0.6;
+}
+
+.pause-button:hover {
+    background-color: rgb(44, 15, 209);
+}
+
+.pause-button:active {
+    opacity: 0.6;
+}
+
+.stop-button:hover {
+    background-color: rgb(131, 9, 9);
+}
+
+.stop-button:active {
+    opacity: 0.6;
+}
