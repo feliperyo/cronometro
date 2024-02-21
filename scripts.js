@@ -51,7 +51,7 @@ function timer() {
 }
 
 function returnData(input) {
-    return input > 10 ? input : `0${input}`
+    return input > 9 ? input : `0${input}`
 }
 
 
